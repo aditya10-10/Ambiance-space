@@ -1,11 +1,11 @@
 import './App.css';
+import Collapsible from './components/Navbar';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        Ambiances Space
-      </header>
+      <Collapsible />
     </div>
   );
 }
