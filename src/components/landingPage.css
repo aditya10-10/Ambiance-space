@@ -80,4 +80,11 @@
     }
   }
 
+  .callout-title {
+    margin-bottom: 0;
+    animation-delay: 0.5s;
+    font-size: 4rem;
+    font-size: min(14vw, 4rem);
+    padding-bottom: 10px;
+}
   
