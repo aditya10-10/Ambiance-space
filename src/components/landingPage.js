@@ -12,9 +12,11 @@ function Video() {
       <div className="overlay"></div>
       <div className="content">
         <h1 className=" callout-title animate__animated animate__zoomInUp">
-        Ambiance Space
+          Ambiance Space
         </h1>
-        <h4 className="callout-subtitle animate__animated animate__zoomInDown">Elevate Your Space with Exceptional Interior Design Services</h4>
+        <h4 className="callout-subtitle animate__animated animate__zoomInDown">
+          Elevate Your Space with Exceptional Interior Design Services
+        </h4>
       </div>
     </div>
   );
