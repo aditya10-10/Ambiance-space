@@ -6,13 +6,14 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import Button from "react-bootstrap/Button";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Navbar.css';
+import 'animate.css';
 import logo from '../assets/logo.png'; // Correct the path based on your project structure
 
 function Collapsible() {
   return (
     <Navbar collapseOnSelect sticky="top" expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="#home" className="playpen-sans-brand">
+        <Navbar.Brand href="#home" className="playpen-sans-brand animate__animated animate__zoomIn">
           <img
             alt=""
             src={logo}

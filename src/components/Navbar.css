@@ -32,7 +32,7 @@
 
 /* Add gradient background to the button */
 .navbar .navbar-nav .nav-link-button {
-    background-image: linear-gradient(to right, #57007B, #6675F7); /* Define your gradient colors */
+    background-image: linear-gradient(to right, #000000, #474747); /* Define your gradient colors */
     color: #ffffff; /* Text color on the button */
     border: none; /* Remove button border */
     padding: 10px 20px; /* Adjust padding as needed */
@@ -41,12 +41,14 @@
 }
 
 .navbar .navbar-nav .nav-link-button:hover {
-    background-image: linear-gradient(to right, #6675F7, #57007B); /* Change gradient on hover */
+    background-image: linear-gradient(to right, #808080, #000000); /* Change gradient on hover */
 }
 
 .playpen-sans-brand {
     font-size: 2.0em;
     font-family: 'sans-serif' !important; /* Apply Playpen Sans font with !important */
-  }
+}
+
+  
   
   
