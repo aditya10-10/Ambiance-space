@@ -1,81 +1,79 @@
 
-  video {
+video {
     width: 100%;
     height: 100%;
     bottom: 0;
     object-fit: cover;
-  }
-  
-  .uk-position-cover {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
-  
-  
-  .video-container {
+}
+
+.video-container {
     width: 100%;
-    height: 90vh; /* Adjust the height as needed */
+    height: 90vh;
     position: relative;
-    overflow: hidden; /* Ensure the video doesn't overflow the container */
-  }
-  
-  .overlay {
+    overflow: hidden;
+
+}
+
+.overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background: rgba(17,17,17,20%);
-  }
-  
-  .content {
+}
+
+.content {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
-  }
+}
 
-  .content h1 {
-    font-size: 2.5em; /* Adjust the font size as needed for larger screens */
-    font-weight: bold; /* Make the text bold */
-  }
-  
-  .content h4 {
-    font-size: 1.5em; /* Adjust the font size as needed for larger screens */
-  }
-  
-  /* Responsive styles for smaller screens (tablets) */
-  @media (max-width: 768px) {
-    .content h1 {
-      font-size: 2em; /* Adjust the font size for tablets */
-    }
-  
-    .content h4 {
-      font-size: 1.2em; /* Adjust the font size for tablets */
-    }
-  }
-  
-  /* Responsive styles for even smaller screens (phones) */
-  @media (max-width: 480px) {
-    .content h1 {
-      font-size: 1.8em; /* Adjust the font size for phones */
-    }
-  
-    .content h4 {
-      font-size: 1em; /* Adjust the font size for phones */
-    }
-  }
+.content h1 {
+    font-size: 4em;
+    /* Adjust the font size as needed for larger screens */
+    font-weight: bold;
+    /* Make the text bold */
+}
 
-  .callout-title {
+.content h4 {
+    font-size: 1.5em;
+    /* Adjust the font size as needed for larger screens */
+}
+
+/* Responsive styles for smaller screens (tablets) */
+@media (max-width: 768px) {
+    .content h1 {
+        font-size: 2em;
+        /* Adjust the font size for tablets */
+    }
+
+    .content h4 {
+        font-size: 1.2em;
+        /* Adjust the font size for tablets */
+    }
+}
+
+/* Responsive styles for even smaller screens (phones) */
+@media (max-width: 480px) {
+    .content h1 {
+        font-size: 1.8em;
+        /* Adjust the font size for phones */
+    }
+
+    .content h4 {
+        font-size: 1em;
+        /* Adjust the font size for phones */
+    }
+}
+
+.callout-title {
     margin-bottom: 0;
     animation-delay: 0.5s;
     font-size: 4rem;
     font-size: min(14vw, 4rem);
     padding-bottom: 10px;
 }
-  
