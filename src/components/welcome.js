@@ -1,6 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import {Link, Element, animateScroll as scroll} from 'react-scroll';
 import './welcome.css';
+// import * as React from 'react';
+import Button from '@mui/material/Button';
 
 function Welcome() {
 
@@ -18,15 +20,7 @@ function Welcome() {
                         detail is crafted with precision to reflect your personality.
                     </p>
                 </div>
-                <Link
-                    to="explore"
-                    smooth={true}
-                    duration={500}
-                    spy={true}
-                    offset={-50}
-                    className="explore-button">
-                    Explore
-                </Link>
+                <Button  className='explore-button' variant="contained"  size="large">Explore More</Button>
             </Element>
         </div>
     );

@@ -8,6 +8,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './Navbar.css';
 import 'animate.css';
 import logo from '../assets/logo.png'; // Correct the path based on your project structure
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 function Collapsible() {
   return (
@@ -22,7 +24,9 @@ function Collapsible() {
             className="d-inline-block align-top"
           />{' '}Ambiance Space
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle aria-controls="responsive-navbar-nav">
+          <FontAwesomeIcon icon={faBars} className="custom-toggler-icon" />
+        </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mx-auto text-center px-30">
             <Nav.Link href="#about-us">About us</Nav.Link>
