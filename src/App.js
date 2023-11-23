@@ -6,7 +6,7 @@ import Video from "./components/landingPage";
 import Welcome from "./components/welcome.js";
 import Box from "./components/businessbox.js";
 import Slider from "./components/Slider";
-import Shop from "./components/Shopping.js";
+import MultiActionAreaCard from "./components/Shopping.js";
 import Footer from "./components/Footer.js";
 
 
@@ -18,7 +18,7 @@ function App() {
       <Welcome />
       <Box />
       <Slider />
-      <Shop />
+      <MultiActionAreaCard />
       <Footer />
     </div>
   );

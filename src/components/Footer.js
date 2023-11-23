@@ -118,7 +118,7 @@ function Footer() {
               </p>
               <p>
                 <a href="#!" className="text-reset">
-                About
+                  About
                 </a>
               </p>
               <p>
@@ -137,17 +137,17 @@ function Footer() {
               <h6 className="text-uppercase fw-bold mb-4">SUPPORT</h6>
               <p>
                 <a href="#!" className="text-reset">
-                Help
+                  Help
                 </a>
               </p>
               <p>
                 <a href="#!" className="text-reset">
-                Customer Services
+                  Customer Services
                 </a>
               </p>
               <p>
                 <a href="#!" className="text-reset">
-                Privacy Policy
+                  Privacy Policy
                 </a>
               </p>
               <p>
@@ -202,8 +202,7 @@ function Footer() {
           backgroundColor: "#333333",
         }}
       >
-        &copy; {new Date().getFullYear()}{" "}
-         Copyright:{" "}
+        &copy; {new Date().getFullYear()} Copyright:{" "}
         <a className="text-reset fw-bold" href="#">
           Ambiance Space
         </a>

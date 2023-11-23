@@ -78,7 +78,7 @@
   font-size: 2.5rem;
   margin-bottom: 1rem;
   /* Rainbow gradient styles */
-  background: linear-gradient(
+  /* background: linear-gradient(
     to left,
     violet,
     indigo,
@@ -87,26 +87,17 @@
     yellow,
     orange,
     red
-  );
-  -webkit-background-clip: text;
-  color: transparent;
+  ); */
+  background-clip: text;
+  color: black;
 }
 
 .testimonial-section p {
   font-size: 1.2rem;
   /* Rainbow gradient styles for p */
-  background: linear-gradient(
-    to right,
-    violet,
-    indigo,
-    blue,
-    green,
-    yellow,
-    orange,
-    red
-  );
-  -webkit-background-clip: text;
-  color: transparent;
+  /* /* background:  */
+  background-clip: text;
+  color: black;
 }
 
 /* Add animation styles */
