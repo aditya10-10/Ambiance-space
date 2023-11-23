@@ -22,7 +22,7 @@ const Box = () => {
         <div className="image-box">
           <img src={residance} alt="Image 2" className="image" />
           <div className="content1">
-            <h1>Your Residence</h1>
+            <h1>For Residence</h1>
             <h4>House | Apartment | Villa</h4>
           </div>
         </div>
